@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Main Page</title>
+    <!--Link for Bootstrap & CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="frontPage.css">
+</head>
+
+<body>
+
+    <!--Main Text-->
+    <p id=mainText>Learn to play <span class="auto-type"></span></p>
+
+    <!--Link for Library from GitHub, called Typed-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+    <!--JavaScript code for the animation to execute-->
+    <script>
+        var typed = new Typed('.auto-type', {
+            strings: ["a Guitar!", "a Piano!", "any instrument!"],
+            typeSpeed: 75,
+            backSpeed: 75,
+            loop: false
+        });
+    </script>
+
+
+    <p id=subText>The highest-quality instructive resources from across the web, gathered in one convenient location for free!</p>
+    <a href="Main Instrument Page/mainpg.html" class="btn btn-dark">Start Learning!</a>
+
+    <!--Navigation Bar at top-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="Pics/logoFinalCorner.png">
+            <img src="Pics/logoFinalCorner.png" alt="Logo" width="50" height="50">
+            RFKA Instrument Lessons &copy
+        </a>
+
+
+        <div class="navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" href="Product Page/productPage.html">Purchase</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Test Page/testmain.html">Test Yourself!</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Credits Page/creditsPage.html">Credits</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About Us Page/aboutpage.html">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</body>
+
+</html>

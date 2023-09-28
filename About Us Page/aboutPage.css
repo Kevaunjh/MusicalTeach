@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+#title{
+    text-align:center;
+    color: black;
+}
+
+body{
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    margin: 2cm;
+    background: linear-gradient(90deg,#FFA62E,#EA4D2C);
+    color: white;
+}

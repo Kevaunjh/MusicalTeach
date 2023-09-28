@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Purchase an Instrument</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href=productPage.css>
+    <script type="text/javascript" defer src="productPage.js"></script>
+</head>
+
+<body>
+    <!--Home & SC Button-->
+    <div>
+        <button class="btn btn-warning">
+            <a class=nav-link href="../frontPage.html">Home</a>
+        </button>
+    </div>
+
+    <div class="cartButton">
+        <button class="btn btn-warning" id="shoppingCartButton">
+            <img src="SC.png" width=35 height=35></a>
+        </button>
+    </div>
+
+    <!--Header-->
+    <div class="header">
+        <img id="banner" src="banner.png" alt="banner" height="200" width="1000">
+        <br>
+        <div class="banner-text">Products</div>
+    </div>
+
+    <!--Sidebars -->
+    <div class="sidebar-right"></div>
+    <div class="sidebar-left"></div>
+
+    <!--Table containing 3 instruments per row. An image, button, text, and hover content is present in each box -->
+    <table>
+        <tr>
+            <td>
+                <img src="xylophone.png" height=100 width=150 alt="Xylophone"><br><br>
+                <p class="instrumentText">Xylophone</p>
+                <p id="price">($99.99)</p>
+                <button class="btn btn-warning"> <a class=nav-link href="https://www.amazon.ca/Percussion-Instrument-Beginners-Glockenspiel-Xylophone/dp/B0BLZ21PN4/ref=sr_1_7?crid=16SC4D52OGG5X&keywords=xylophone&qid=1669666328&qu=eyJxc2MiOiI2LjMyIiwicXNhIjoiNS41NCIsInFzcCI6IjQuOTcifQ%3D%3D&refinements=p_36%3A12035762011&rnid=12035759011&s=musical-instruments&sprefix=xylophone%2Caps%2C197&sr=1-7" title="Purchase!" data-name="Orange">Purchase</a>
+                </button>
+            </td>
+            <td>
+                <img src="drums.png" height=100 width=150 alt="Drums"><br><br>
+                <p class="instrumentText">Drum Kit</p>
+                <p id="price">($499.99)</p>
+                <button class="btn btn-warning"> <a class=nav-link href="https://www.amazon.ca/LAGRIMA-Black-Complete-Cymbals-Sticks/dp/B01LX6VUOF/ref=sr_1_20?crid=3BSXHL5AR94JT&keywords=drum+kit&qid=1669666735&qu=eyJxc2MiOiI1LjUyIiwicXNhIjoiNS4zMCIsInFzcCI6IjQuMDcifQ%3D%3D&refinements=p_36%3A12035764011&rnid=12035759011&s=musical-instruments&sprefix=drum+kit%2Cmi%2C72&sr=1-20" title="Purchase">Purchase</a>
+                </button>
+            </td>
+            <td>
+                <img src="trumpet.png" height=100 width=110 alt="Trumpet"><br><br>
+                <p class="instrumentText">Trumpet</p>
+                <p id="price">($142.99)</p>
+                <button class="btn btn-warning"> <a class=nav-link href="https://www.amazon.ca/SKYLARK-INTERNATIONAL-TRUMPET-SILVER-GOLDEN/dp/B09MP9N3TL/ref=sr_1_28?crid=17SHNZ12HF88X&keywords=trumpet&qid=1669667175&qu=eyJxc2MiOiI1LjA2IiwicXNhIjoiNC42OCIsInFzcCI6IjQuMjkifQ%3D%3D&refinements=p_36%3A12035763011&rnid=12035759011&s=musical-instruments&sprefix=trumpe%2Caps%2C86&sr=1-28" title="Purchase!">Purchase</a>
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="acousticGuitar.png" height=100 width=60 alt="classicGuitar"><br><br>
+                <p class="instrumentText">Classic Guitar</p>
+                <p id="price">($228.99)</p>
+                <button class="btn btn-warning"> <a class=nav-link href="https://www.amazon.ca/Yamaha-C40II-Classical-Guitar/dp/B005B6EZ36/ref=sr_1_1?crid=257W3JNTP1ZUM&keywords=classical+guitar&qid=1669666848&qu=eyJxc2MiOiI2LjUwIiwicXNhIjoiNS45NCIsInFzcCI6IjQuNjgifQ%3D%3D&refinements=p_36%3A22500-23000&rnid=12035759011&s=musical-instruments&sprefix=classical+guita%2Caps%2C162&sr=1-1" title="Purchase!">Purchase</a></button>
+            </td>
+            <td id>
+                <img src="electricGuitar.png" height=100 width=130 alt="electricGuitar"><br><br>
+                <p class="instrumentText">Electric Guitar</p>
+                <p id="price">($237.99)</p>
+                <button class="btn btn-warning"> <a class=nav-link href="https://www.amazon.ca/Saga-TC-10-Electric-Guitar-Kit/dp/B000WEADEW/ref=sr_1_26?crid=2T6BYSS9H7PV9&keywords=electric+guitar&qid=1669666899&qu=eyJxc2MiOiI3LjYyIiwicXNhIjoiNy4wMSIsInFzcCI6IjUuNzAifQ%3D%3D&refinements=p_36%3A23500-24000&rnid=12035759011&s=musical-instruments&sprefix=electrical+guitar%2Cmi%2C72&sr=1-26" title="Purchase!">Purchase</a></button>
+            </td>
+            <td>
+                <img src="bassGuitar.png" height=100 width=100 alt="bassGuitar"><br><br>
+                <p class="instrumentText">Bass Guitar</p>
+                <p id="price">($279.99)</p>
+                <button class="btn btn-warning"> <a class=nav-link href="https://www.amazon.ca/Jackson-Concert-Minion-Electric-Guitar/dp/B07G3CPM4T/ref=sr_1_3?crid=2EMRB7EPFZQ19&keywords=bass+guitar&qid=1669666961&qu=eyJxc2MiOiI3LjEzIiwicXNhIjoiNi45MyIsInFzcCI6IjUuOTUifQ%3D%3D&refinements=p_36%3A27500-28000&rnid=12035759011&s=musical-instruments&sprefix=bass+guitar%2Cmi%2C97&sr=1-3" title="Purchase!">Purchase</a>
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="trombone.png" height=100 width=100 alt="Trombone"><br><br>
+                <p class="instrumentText">Trombone</p>
+                <p id="price">($299.99)</p>
+                <button class="btn btn-warning"> <a class=nav-link href="https://www.amazon.ca/Funion-Flat-Trombone-Brass-Instrument/dp/B06XC5TX44/ref=sr_1_7?crid=3MLR8NBL6FGJS&keywords=trombone&qid=1669667008&qu=eyJxc2MiOiI2LjA3IiwicXNhIjoiNS43MCIsInFzcCI6IjUuMDgifQ%3D%3D&s=musical-instruments&sprefix=trombon%2Cmi%2C79&sr=1-7" title="Purchase!">Purchase</a>
+                </button>
+            </td>
+            <td>
+                <img src="piano.png" height=100 width=100 alt="GrandPiano"><br><br>
+                <p class="instrumentText">Grand Piano</p>
+                <p id="price">($15,599.99)</p>
+                <button class="btn btn-warning"> <a class=nav-link href="https://www.merriammusic.com/product/roland-gp609/?attribute_colours=Polished+Ebony&campaignid=1912936716&adgroupid=65915470930&adid=349776573031&gclid=Cj0KCQiA1ZGcBhCoARIsAGQ0kkqC81WrGgSRNlLuuVp_UVPDVg5u7Xju4HnDvvjdMThujM-jevXvap4aAhJ0EALw_wcB" title="Purchase!">Purchase</a>
+                </button>
+            </td>
+            <td>
+                <img src="squarePiano.png" height=100 width=100 alt="squarePiano"><br><br>
+                <p class="instrumentText">Upright Piano</p>
+                <p id="price">($827.99)</p>
+                <button class="btn btn-warning"> <a class=nav-link href="https://www.bestbuy.ca/en-ca/product/donner-ddp-100-88-key-hammer-action-weighted-upright-digital-piano-with-furniture-stand-3-pedal-for-beginner/16455425?cmp=seo-16455425&cmp=knc-s-71700000081849189&gclid=Cj0KCQiA1ZGcBhCoARIsAGQ0kkpEP_7xNwRH8T0i1cC3OwuL8BJadUa1x_OkLht0LsE_Xie3NKjZ8fsaAgMhEALw_wcB&gclsrc=aw.ds" title="Purchase!">Purchase</a>
+                </button>
+            </td>
+        </tr>
+    </table>
+
+    <!--Shopping Cart-->
+    <div class="modal-container" id="modal_container">
+        <table id=shoppingCart>
+            <tr>
+                <td id=scTitle></td>
+                <td id=scTitle>Shopping Cart</td>
+                <td id=scTitle></td>
+            </tr>
+            <tr>
+                <td id=scHead>Item</td>
+                <td id=scHead>Price</td>
+                <td id=scHead>Quantity</td>
+            </tr>
+            <tr>
+                <td id=scBody></td>
+                <td id=scBody></td>
+                <td id=scBody></td>
+            </tr>
+            <tr>
+                <td id=scFoot><button class="btn btn-warning" id="close">Close</button></td>
+                <td id=scFoot></td>
+                <td id=scFoot></td>
+            </tr>
+        </table>
+
+    </div>
+</body>
+
+</html>

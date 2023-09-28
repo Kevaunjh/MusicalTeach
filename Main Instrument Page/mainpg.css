@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+#design {
+  background-color: black;
+  font-family: 'Open Sans', 'sans-serif';
+  border: 2px solid powderblue;
+  font-size: 14pt;
+  font-weight: 500;
+  color: deepskyblue;
+}
+
+h1 {
+  color: antiquewhite;
+}
+
+#header {
+  margin-left: 50px
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.navbar-brand{
+  text-indent: 5pt;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-item{
+  font-family: 'Open Sans', sans-serif;
+}
+
+#imgsize {
+  width: 500px;
+  height: 500px;
+}
+
+
+.navbar-custom {
+  background-color: deepskyblue;
+}
+
+#margin {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#margin2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px
+}
+
+#logo {
+  width: 20;
+  height: 20
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+body{
+    margin-left: 5cm;
+    margin-right: 5cm;
+    margin-bottom: 3cm;
+    margin-top: 1cm;
+    text-align: center;
+    background-color:#FFEfe0;
+}
+
+h1{
+    font-size: 35pt;
+}
+
+.btn-link{
+    color: #363636;
+    font-size: 25pt;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.card-header{
+    height: 7cm;
+}
+
+.card-body{
+    color: white;
+}
+
+#headingOne{
+    background: linear-gradient(90deg,#fa4659,#e9007f);
+}
+
+#headingTwo{
+    background: linear-gradient(90deg,#26baee,#9fe8fa);
+}
+
+#collapseOne{
+    background-color: #363636;
+    text-align: left;
+}
+
+#collapseTwo{
+    background-color: #363636;
+    text-align: left;
+}
+
+a{
+    color:white;
+}
+
+a:hover{
+    color:white;
+}
