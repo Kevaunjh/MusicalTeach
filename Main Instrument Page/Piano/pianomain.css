@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+
+#header {
+  text-align: center; 
+  font-size: 35px; 
+  background-image: url("bck.jpg"); 
+  font-family: 'Open Sans', sans-serif;
+  background-repeat: no-repeat; 
+  background-position-x: center; 
+  background-size: cover; 
+  background-position-y: center;
+}
+
+#headerbck {
+  width: 1000px; 
+  height: 400px; 
+  margin-left: auto; 
+  margin-right: auto; 
+  border-style:double;
+}
+
+body {
+  margin-left: 40px;
+  background-color: peachpuff;
+  font-family:'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+.sidebar-left{
+    width: 10px;
+    height: 800px;
+    background: linear-gradient(0deg, red, #FFB300);
+    float: left;
+}
+
+#sheetmusc {
+  margin-left: auto; margin-right: auto; display: block;
+}
+
+#images {
+  width: 400px; height: 200px; margin-left: 200px
+}
+
+.midbar{
+    width: 2100px;
+    height: 10px;
+    background: brown;
+}
